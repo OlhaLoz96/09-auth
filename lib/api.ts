@@ -6,7 +6,7 @@ interface FetchNotesResponse {
   totalPages: number;
 }
 
-axios.defaults.baseURL = "https://notehub-public.goit.study/api";
+axios.defaults.baseURL = "https://notehub-api.goit.study";
 const myToken = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN;
 
 export const fetchNotes = async (
