@@ -10,7 +10,7 @@ import { useDebouncedCallback } from "use-debounce";
 import Loader from "@/components/Loader/Loader";
 import ErrorMessage from "@/components/ErrorMessage/ErrorMessage";
 import css from "./NotesPage.module.css";
-import { fetchNotes } from "@/lib/api";
+import { fetchNotes } from "@/lib/api/clientApi";
 import { NoteTag } from "@/types/note";
 import Link from "next/link";
 
